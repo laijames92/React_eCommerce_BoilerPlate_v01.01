@@ -1,0 +1,36 @@
+.slick-next {
+  /* background: center center no-repeat !important; */
+  background: rgba(26, 35, 43) !important;
+  opacity: 0.6;
+  width: 7%;
+  height: 100%;
+  margin-top: -3px;
+  margin-right: 25px;
+  position: absolute;
+  z-index: 0 !important;
+}
+
+.slick-next:focus,
+.slick-next:hover,
+.slick-prev:focus,
+.slick-prev:hover {
+  opacity: 0.9;
+}
+
+.slick-prev {
+  background: url("./images/back.png") center center no-repeat !important;
+  background: rgba(26, 35, 43) !important;
+  opacity: 0.6;
+  width: 7%;
+  height: 100%;
+  margin-top: -3px;
+  margin-left: 25px;
+  position: absolute;
+  z-index: 1 !important;
+}
+
+.slick-list {
+  overflow: hidden;
+  margin: 0px;
+  padding: 3px 0px;
+}
