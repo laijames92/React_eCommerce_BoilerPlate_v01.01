@@ -60,6 +60,12 @@ const Data = [
       location: "",
       joined: "",
       website: "",
+      img: [
+        "https://scontent.fkul7-2.fna.fbcdn.net/v/t1.0-9/39408919_2254490841231809_3920880841428828160_n.jpg?_nc_cat=104&_nc_sid=09cbfe&_nc_ohc=xfMdTS0Fn8MAX8gOxG4&_nc_ht=scontent.fkul7-2.fna&oh=0e2ebd52689a92c9907545a96d0c44fe&oe=5F4C28FF",
+        "https://scontent.fkul7-1.fna.fbcdn.net/v/t1.0-9/15027752_1486508458030055_3199496651055918374_n.jpg?_nc_cat=103&_nc_sid=174925&_nc_ohc=z7TwlV1Bl-4AX93r36Y&_nc_ht=scontent.fkul7-1.fna&oh=7a9d69d92b547d6c933958cf1bc158ae&oe=5F4CD102",
+        "https://scontent.fkul7-1.fna.fbcdn.net/v/t1.0-9/10407629_919382611409312_6396713459200294075_n.jpg?_nc_cat=110&_nc_sid=174925&_nc_ohc=P1Kkh_iPQKEAX-6J3wh&_nc_ht=scontent.fkul7-1.fna&oh=5375aae76076384ceda93800d7275ba8&oe=5F4A5990",
+        "https://scontent.fkul7-1.fna.fbcdn.net/v/t31.0-8/28947098_2037673959580166_2980455690145164537_o.jpg?_nc_cat=105&_nc_sid=a4a2d7&_nc_ohc=ZH_t1ucR-IYAX-PJh9r&_nc_ht=scontent.fkul7-1.fna&oh=74536c9ed7448e61415db464e24c0b7a&oe=5F4B0F37"
+      ],
       contact: {
         phone: "",
         whatsapp: "",

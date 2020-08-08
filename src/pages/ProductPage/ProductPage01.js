@@ -13,6 +13,7 @@ import CustomHero01 from "../shared/components/CustomHero01";
 import ProductDetails01 from "./components/ProductDetails01";
 import ProductDetails02accordion from "./components/ProductDetails02accordion";
 import ProductDetails03tabs from "./components/ProductDetails03tabs";
+import ProductSeller01 from "./components/ProductSeller01";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -44,6 +45,9 @@ const ProductPage01 = (props) => {
             </Grid>
           </Grid>
         </Card>
+
+        <ProductSeller01 {...props} />
+
         <Card>
           <Grid container spacing={2}>
             <Grid item xs={12}>

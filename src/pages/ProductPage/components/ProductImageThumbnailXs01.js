@@ -102,8 +102,6 @@ const ProductImageThumbnailXs01 = (props) => {
               onClick={() => props.onClick(index)}
               onMouseOver={() => props.onClick(index)}
               className={classes.thumbnailMobile}
-
-              // classes={{ img: classes.thumbnail }}
             />
           </Card>
         ))}
