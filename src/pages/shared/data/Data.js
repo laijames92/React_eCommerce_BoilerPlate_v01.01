@@ -2,6 +2,14 @@ const Data = [
   {
     seller: {
       name: "James Lai",
+      img: [
+        "https://scontent.fbki2-1.fna.fbcdn.net/v/t31.0-8/22051380_10209888107787589_3822251984545509115_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=_T_HQlZ9Q0UAX8OYz-U&_nc_ht=scontent.fbki2-1.fna&oh=9c93a9c1a4175bd378fd487c984ea2d8&oe=5F3ED485",
+        "https://scontent.fkch1-1.fna.fbcdn.net/v/t1.0-9/75534237_10156879312416743_5736631484752592896_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=3TqYrwDqKCsAX9AyHy8&_nc_ht=scontent.fkch1-1.fna&oh=52112f6d7f8d585b71682d5f8a1d8d19&oe=5F4570F7",
+        "https://scontent.fkch1-1.fna.fbcdn.net/v/t31.0-8/16665712_1402340859790840_7390523390539979218_o.jpg?_nc_cat=104&_nc_sid=a9b1d2&_nc_ohc=2O9lOfcJ3a8AX97WlzC&_nc_ht=scontent.fkch1-1.fna&oh=aaad5f2c0f8c15a3e6d4c0f7829db617&oe=5F47B0E7",
+        "https://scontent.fkch1-1.fna.fbcdn.net/v/t1.0-9/73202215_10156879309346743_4991130955801427968_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=_VBT_wME8hEAX_4wm_S&_nc_ht=scontent.fkch1-1.fna&oh=4e59fa6fcf6ae604166d6c7d39c42f46&oe=5F49FED8",
+        "https://scontent.fkch1-1.fna.fbcdn.net/v/t1.0-9/14449786_10207068395896554_3304913258944249212_n.jpg?_nc_cat=106&_nc_sid=174925&_nc_ohc=FDkyFuTtYJ0AX9rYoSj&_nc_ht=scontent.fkch1-1.fna&oh=d34c2aa3f87380f919bfd354a02b7886&oe=5F49AD3E",
+        "https://scontent.fkch1-1.fna.fbcdn.net/v/t1.0-9/75534237_10156879312416743_5736631484752592896_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=3TqYrwDqKCsAX9AyHy8&_nc_ht=scontent.fkch1-1.fna&oh=52112f6d7f8d585b71682d5f8a1d8d19&oe=5F4570F7"
+      ],
       location: "",
       joined: "",
       website: "",
@@ -21,7 +29,8 @@ const Data = [
       },
       product: {
         name: "James Lai Product",
-        description: "",
+        description:
+          "Lorem ipsum dolor sit amet, pri tantas dictas deserunt ut. Id sed possim melius fuisset, ne sed congue animal volumus, reque fastidii eu ius. Mel et veritus noluisse, te erat dicit deseruisse eos. Choro intellegat persequeris eam eu, idque feugiat admodum vel ea. Et duo dolore appellantur, an vitae interesset persequeris eam. Te est illum dicant dignissim, vis eius minim sanctus in. Dicta possit an sed, magna facilisi volutpat in sea, dolores contentiones quo an. Est oratio argumentum scriptorem id. Lorem singulis interpretaris ea vix. Dicant omnium has te, eam agam consetetur ne. Prodesset efficiantur eos ad, mei at admodum propriae albucius, laudem docendi postulant qui ne. Quo ea eros corrumpit, et eos quaerendum delicatissimi, atqui doming ei vis. Est suas solet affert in, minim possim habemus at duo, nullam definitiones an vel. Te sea quidam ancillae singulis, usu eu fabellas inciderint. Graeci deserunt volutpat vix et, cum aeterno scripta iracundia ei. Ut autem intellegat repudiandae vel, eu vel exerci persequeris, in tacimates consequat vim. Ea vix habeo vivendo scaevola. Sit ex omnes legere debitis. Dico consectetuer no eos, vim ea vocent nostrum postulant, nam autem cotidieque definitiones no. Ut verterem adversarium nec. Mei quodsi percipit te, duo ne option platonem. Quodsi persecuti cu nec, ea mei maiorum scaevola. Legere rationibus reformidans ne vel, qui ut epicurei adipiscing. Ei ius vero petentium. Accumsan tacimates ne vel, sanctus assentior ea eum, noster reformidans usu ad. Decore philosophia ut vis. Ea has euripidis abhorreant repudiandae, nulla pericula id est, pro nullam tincidunt ut.",
         brand: "",
         category: ["visual artist", "video engineer"],
         price: {
@@ -31,17 +40,17 @@ const Data = [
           oldPrice: "",
           newPrice: ""
         },
+        review: [
+          {
+            userName: "",
+            rating: 3,
+            userComment: ""
+          }
+        ],
         rating: 5,
         ratingCounter: 116,
         saleCounter: 127,
-        img: [
-          "https://scontent.fbki2-1.fna.fbcdn.net/v/t31.0-8/22051380_10209888107787589_3822251984545509115_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=_T_HQlZ9Q0UAX8OYz-U&_nc_ht=scontent.fbki2-1.fna&oh=9c93a9c1a4175bd378fd487c984ea2d8&oe=5F3ED485",
-          "https://scontent.fkch1-1.fna.fbcdn.net/v/t1.0-9/75534237_10156879312416743_5736631484752592896_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=3TqYrwDqKCsAX9AyHy8&_nc_ht=scontent.fkch1-1.fna&oh=52112f6d7f8d585b71682d5f8a1d8d19&oe=5F4570F7",
-          "https://scontent.fkch1-1.fna.fbcdn.net/v/t31.0-8/16665712_1402340859790840_7390523390539979218_o.jpg?_nc_cat=104&_nc_sid=a9b1d2&_nc_ohc=2O9lOfcJ3a8AX97WlzC&_nc_ht=scontent.fkch1-1.fna&oh=aaad5f2c0f8c15a3e6d4c0f7829db617&oe=5F47B0E7",
-          "https://scontent.fkch1-1.fna.fbcdn.net/v/t1.0-9/73202215_10156879309346743_4991130955801427968_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=_VBT_wME8hEAX_4wm_S&_nc_ht=scontent.fkch1-1.fna&oh=4e59fa6fcf6ae604166d6c7d39c42f46&oe=5F49FED8",
-          "https://scontent.fkch1-1.fna.fbcdn.net/v/t1.0-9/14449786_10207068395896554_3304913258944249212_n.jpg?_nc_cat=106&_nc_sid=174925&_nc_ohc=FDkyFuTtYJ0AX9rYoSj&_nc_ht=scontent.fkch1-1.fna&oh=d34c2aa3f87380f919bfd354a02b7886&oe=5F49AD3E",
-          "https://scontent.fkch1-1.fna.fbcdn.net/v/t1.0-9/75534237_10156879312416743_5736631484752592896_o.jpg?_nc_cat=107&_nc_sid=cdbe9c&_nc_ohc=3TqYrwDqKCsAX9AyHy8&_nc_ht=scontent.fkch1-1.fna&oh=52112f6d7f8d585b71682d5f8a1d8d19&oe=5F4570F7"
-        ]
+        img: [""]
       }
     }
   },
@@ -67,7 +76,8 @@ const Data = [
       },
       product: {
         name: "Albert Lai product1",
-        description: "",
+        description:
+          "Lorem ipsum dolor sit amet, pri tantas dictas deserunt ut. Id sed possim melius fuisset, ne sed congue animal volumus, reque fastidii eu ius. Mel et veritus noluisse, te erat dicit deseruisse eos. Choro intellegat persequeris eam eu, idque feugiat admodum vel ea. Et duo dolore appellantur, an vitae interesset persequeris eam. Te est illum dicant dignissim, vis eius minim sanctus in. Dicta possit an sed, magna facilisi volutpat in sea, dolores contentiones quo an. Est oratio argumentum scriptorem id. Lorem singulis interpretaris ea vix. Dicant omnium has te, eam agam consetetur ne. Prodesset efficiantur eos ad, mei at admodum propriae albucius, laudem docendi postulant qui ne. Quo ea eros corrumpit, et eos quaerendum delicatissimi, atqui doming ei vis. Est suas solet affert in, minim possim habemus at duo, nullam definitiones an vel. Te sea quidam ancillae singulis, usu eu fabellas inciderint. Graeci deserunt volutpat vix et, cum aeterno scripta iracundia ei. Ut autem intellegat repudiandae vel, eu vel exerci persequeris, in tacimates consequat vim. Ea vix habeo vivendo scaevola. Sit ex omnes legere debitis. Dico consectetuer no eos, vim ea vocent nostrum postulant, nam autem cotidieque definitiones no. Ut verterem adversarium nec. Mei quodsi percipit te, duo ne option platonem. Quodsi persecuti cu nec, ea mei maiorum scaevola. Legere rationibus reformidans ne vel, qui ut epicurei adipiscing. Ei ius vero petentium. Accumsan tacimates ne vel, sanctus assentior ea eum, noster reformidans usu ad. Decore philosophia ut vis. Ea has euripidis abhorreant repudiandae, nulla pericula id est, pro nullam tincidunt ut.",
         brand: "",
         category: "event manager",
         price: {
@@ -77,6 +87,13 @@ const Data = [
           oldPrice: "",
           newPrice: ""
         },
+        review: [
+          {
+            userName: "",
+            rating: 3,
+            userComment: ""
+          }
+        ],
         rating: 1,
         ratingCounter: 65,
         saleCounter: 167,
@@ -121,6 +138,13 @@ const Data = [
           oldPrice: "",
           newPrice: ""
         },
+        review: [
+          {
+            userName: "",
+            rating: 3,
+            userComment: ""
+          }
+        ],
         rating: 5,
         ratingCounter: 16,
         saleCounter: 27,
@@ -162,6 +186,13 @@ const Data = [
           oldPrice: "",
           newPrice: ""
         },
+        review: [
+          {
+            userName: "",
+            rating: 3,
+            userComment: ""
+          }
+        ],
         rating: 5,
         ratingCounter: 6,
         saleCounter: 7,
@@ -203,6 +234,13 @@ const Data = [
           oldPrice: "",
           newPrice: ""
         },
+        review: [
+          {
+            userName: "",
+            rating: 3,
+            userComment: ""
+          }
+        ],
         rating: 5,
         ratingCounter: 6,
         saleCounter: 7,
@@ -245,6 +283,13 @@ const Data = [
           oldPrice: "",
           newPrice: ""
         },
+        review: [
+          {
+            userName: "",
+            rating: 3,
+            userComment: ""
+          }
+        ],
         rating: 5,
         ratingCounter: 6,
         saleCounter: 7,
@@ -287,6 +332,13 @@ const Data = [
           oldPrice: "",
           newPrice: ""
         },
+        review: [
+          {
+            userName: "",
+            rating: 3,
+            userComment: ""
+          }
+        ],
         rating: 5,
         ratingCounter: 6,
         saleCounter: 7,

@@ -24,6 +24,7 @@ import ProductPrice01 from "./components/ProductPrice01";
 import ProductPrice02 from "./components/ProductPrice02";
 import ProductRatingCounter01 from "./components/ProductRatingCounter01";
 import ProductRatingCounter02 from "./components/ProductRatingCounter02";
+import ProductPrice03 from "./components/ProductPrice03";
 
 const useStyles = makeStyles((theme) => ({
   formControl: {
@@ -46,7 +47,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "contain"
   },
   productName: {
-    fontSize: "1.rem"
+    // fontSize: "13px",
+    fontSize: "16px"
   },
   card: {
     "&:hover": {
@@ -101,7 +103,7 @@ const ProductListPage01 = () => {
         <Grid item xs={12}>
           {/* <TextField value={state} fullWidth onChange={handleChange} /> */}
           <FormControl>
-            <FormGroup>
+            <FormGroup row="true">
               {product.map((data) => (
                 <FormControlLabel
                   control={<Checkbox onChange={handleChange} />}
@@ -140,7 +142,7 @@ const ProductListPage01 = () => {
                       </Typography>
 
                       <Box>
-                        <ProductPrice01
+                        <ProductPrice03
                           normalPrice={xxx.seller.product.price.normalPrice}
                           salePrice={xxx.seller.product.price.salePrice}
                         />

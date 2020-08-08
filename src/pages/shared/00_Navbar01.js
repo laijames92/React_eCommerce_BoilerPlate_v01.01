@@ -34,7 +34,7 @@ const Navbar01 = () => {
       <AppBar position="fixed">
         <Toolbar>
           <Typography variant="h5" noWrap className={classes.brand}>
-            {`Scroll to color <AppBar/>`}
+            {`React e-Commerce BoilerPlate`}
           </Typography>
 
           {NavLinks.map((NavLink) => (

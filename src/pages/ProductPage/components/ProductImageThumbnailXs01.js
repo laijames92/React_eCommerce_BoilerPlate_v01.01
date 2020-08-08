@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import "./react-slick01.css";
 import {
   CardMedia,
   Card,

@@ -1,15 +1,15 @@
 const NavLinks = [
   {
-    label: "Home",
+    label: "Products",
     page: "/"
   },
   {
-    label: "About",
+    label: "Stores",
     page: "/"
   },
   {
-    label: "Settings",
-    page: "/"
+    label: "Cart",
+    page: "/cart"
   }
 ];
 

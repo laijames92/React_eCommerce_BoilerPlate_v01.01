@@ -1,5 +1,12 @@
 import React from "react";
-import { Card, Typography, makeStyles, Grid, Divider } from "@material-ui/core";
+import {
+  Card,
+  Typography,
+  makeStyles,
+  Grid,
+  Divider,
+  Box
+} from "@material-ui/core";
 import ProductRatingCounter02 from "./ProductRatingCounter02";
 import ProductPrice02 from "./ProductPrice02";
 import ProductQuantityCounter01 from "./ProductQuantityCounter01";
@@ -40,42 +47,38 @@ const ProductSummary01 = (props) => {
 
   return (
     <React.Fragment>
-      <Grid container spacing={2}>
-        <Grid item xs={12}>
-          <Typography variant="h6" className={classes.title}>
-            {props.seller.product.name}
-          </Typography>
-        </Grid>
+      <Box className={classes.container}>
+        <Grid container spacing={2}>
+          <Grid item xs={12}>
+            <Typography variant="h6" className={classes.title}>
+              {props.seller.product.name}
+            </Typography>
+          </Grid>
 
-        <Grid item xs={12}>
-          <ProductRatingCounter02
-            rating={props.seller.product.rating}
-            ratingCounter={props.seller.product.ratingCounter}
-            saleCounter={props.seller.product.saleCounter}
-          />
-        </Grid>
+          <Grid item xs={12}>
+            <ProductRatingCounter02
+              rating={props.seller.product.rating}
+              ratingCounter={props.seller.product.ratingCounter}
+              saleCounter={props.seller.product.saleCounter}
+            />
+          </Grid>
 
-        <Grid item xs={12}>
-          <ProductPrice02
-            normalPrice={props.seller.product.price.normalPrice}
-            salePrice={props.seller.product.price.salePrice}
-          />
-        </Grid>
+          <Grid item xs={12}>
+            <ProductPrice02
+              normalPrice={props.seller.product.price.normalPrice}
+              salePrice={props.seller.product.price.salePrice}
+            />
+          </Grid>
 
-        <Grid item xs={12}>
-          <ProductQuantityCounter01 />
-        </Grid>
+          <Grid item xs={12}>
+            <ProductQuantityCounter01 />
+          </Grid>
 
-        <Grid item xs={12}>
-          <ProductPurchase01 />
+          <Grid item xs={12}>
+            <ProductPurchase01 />
+          </Grid>
         </Grid>
-        <Grid item xs={12}>
-          <Divider />
-        </Grid>
-        <Grid item xs={12}>
-          test
-        </Grid>
-      </Grid>
+      </Box>
     </React.Fragment>
   );
 };
